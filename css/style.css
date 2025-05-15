@@ -1,0 +1,39 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+  border-color: transparent;
+  border: none;
+}
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* https://github.com/Sivonenko/Business-promotion15-16    */
+
+/* header */
