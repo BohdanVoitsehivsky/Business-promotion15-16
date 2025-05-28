@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "poppins", sans-serif;
 }
@@ -12,7 +16,21 @@ ul,
 ol {
   margin: 0;
   list-style: none;
-  padding-left: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 a {
   text-decoration: none;
@@ -29,11 +47,22 @@ button {
   border: none;
 }
 .container {
-  width: 1150px;
-  padding: 0 20px;
-  margin: 0 auto;
+  max-width: 411px;
+  padding: 0, 30px;
+  margin-right: auto;
+  margin-left: auto;
+
 }
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 145px;
+    padding-right: 145px;
+  }
+}
+
 
 /* https://github.com/Sivonenko/Business-promotion15-16    */
 
 /* header */
+
